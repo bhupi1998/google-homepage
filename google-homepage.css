@@ -1,4 +1,26 @@
-<!--Google homepage for the odin project made by Bhupinder Singh-->
-h1{
-    color:red;
+/*Google homepage for the odin project made by Bhupinder Singh*/
+
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-decoration: none;
+}
+
+/* for header links*/
+.headerOptions{ 
+    color:inherit;
+    text-decoration:inherit;
+}
+
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-decoration:none;
+}
+
+#info>a,#terms>a{
+    color:inherit;
+    text-decoration: none;
 }
