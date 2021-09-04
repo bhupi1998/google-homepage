@@ -5,6 +5,7 @@ header{
     flex-direction:row;
     justify-content:space-between;
     text-decoration: none;
+    
 }
 
 /* for header links*/
@@ -19,6 +20,7 @@ footer{
     justify-content:space-between;
     text-decoration:none;
     padding-top:100px;
+    /*background-color: greenyellow;*/
 }
 
 #info>a,#terms>a{
@@ -30,10 +32,20 @@ footer{
     padding-top:100px;
     display:flex;
     flex-direction: column;
-    width:300px;
+    width:100%;
     justify-content: center;
+    align-items: center;
+    /*background-color: yellow;*/
 }
 
+#main>img{
+    width:300px;
+}
 .material-icons{
     text-decoration:none;
+}
+
+#git{
+    width:40px;
+    height:auto;
 }
