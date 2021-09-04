@@ -1,5 +1,9 @@
 /*Google homepage for the odin project made by Bhupinder Singh*/
 
+body{
+    font-family: Arial,sans-serif;
+    
+}
 header{
     display:flex;
     flex-direction:row;
@@ -12,20 +16,40 @@ header{
 .headerOptions{ 
     color:inherit;
     text-decoration:inherit;
+    font-size:13px;
+    opacity:0.75;
+    padding-left: 15px;
 }
 
 footer{
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    height:42px;
+    padding-right: 20px;;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
+    align-items: center;
     text-decoration:none;
-    padding-top:100px;
-    /*background-color: greenyellow;*/
+    background-color: #F2F2F2;
+}
+
+#info>a,#terms>a{
+    font-size: 16px;
+    padding-left:15px;
+    opacity:0.60;
+}
+#info, #terms{
+    font-size: 16px;
+    padding-left:15px;
+    opacity:0.60;
 }
 
 #info>a,#terms>a{
     color:inherit;
     text-decoration: none;
+    
 }
 
 #main{
@@ -39,13 +63,45 @@ footer{
 }
 
 #main>img{
-    width:300px;
+    width:250px;
 }
 .material-icons{
     text-decoration:none;
+    
 }
 
 #git{
     width:40px;
     height:auto;
+}
+.btn{
+    background-color: #F2F2F2;
+    border:none;
+    height:2em;
+    width:10em;
+    
+}
+
+#search{
+    width:20em;
+    height:3em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(7, 7, 7, 0.13);
+    border-radius: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 1.5em;
+}
+
+#searchBar{
+    width: 90%;
+    height:100%;
+    border:none;
+    outline: none;
+}
+#magnifier{
+    padding-top:12px;
+    padding-left:12px;
 }
