@@ -21,6 +21,12 @@ header{
     padding-left: 15px;
 }
 
+#userLinks{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
 footer{
     position:absolute;
     bottom: 0;
@@ -111,4 +117,8 @@ footer{
 
 #btnCont{
     
+}
+
+.header-icon{
+    padding-left: 10px;
 }
